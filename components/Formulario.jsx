@@ -5,14 +5,6 @@ export default function Forumulario() {
     <>
       <h1>Formulário</h1>
       <form className={styles.form}>
-        <label htmlFor="nome">
-          Nome:
-          <input type="text" name="nome" id="nome" />
-        </label>
-        <label htmlFor="dataAvaliacao">
-          Data Avaliação:
-          <input type="date" id="dataAvaliacao" name="dataAvaliacao" />
-        </label>
         <label htmlFor="sexo">
           Sexo:
           <p>
@@ -63,8 +55,13 @@ export default function Forumulario() {
       </form>
 
       <button type="submit"> Calcular</button>
-
-      <h1>Resultado</h1>
+      <div className="resultado">
+        <h1>Resultado</h1>
+        <h2>Percentual de Gordura</h2>
+        <p>Bom</p>
+        <h2>IMC</h2>
+        <p>Sobrepeso</p>
+      </div>
     </>
   );
 }
