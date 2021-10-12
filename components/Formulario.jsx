@@ -9,11 +9,11 @@ export default function Forumulario() {
           Sexo:
           <p>
             Masculino
-            <input type="radio" name="masculino" id="sexo" />
+            <input type="radio" name="sexo" id="masculino" />
           </p>
           <p>
             Feminino
-            <input type="radio" name="feminino" id="sexo" />
+            <input type="radio" name="sexo" id="feminino" />
           </p>
         </label>
         <label htmlFor="idade">
@@ -28,9 +28,9 @@ export default function Forumulario() {
           Altura:
           <input type="number" name="altura" id="altura" />
         </label>
-      </form>
-      <h1>Dados da Bioimpedância</h1>
-      <form className={styles.form}>
+
+        <h1>Dados da Bioimpedância</h1>
+
         <label htmlFor="percGordura">
           Percentual de gordura:
           <input type="number" />
