@@ -1,6 +1,12 @@
 import styles from "../styles/Formulario.module.css";
 
-export default function Forumulario() {
+export default function Forumulario(){
+  super(props);
+  this.state = {
+    masculino: true,
+    idade: 
+  };
+
   return (
     <>
       <h1>Formulário</h1>
