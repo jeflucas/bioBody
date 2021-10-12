@@ -1,12 +1,6 @@
 import styles from "../styles/Formulario.module.css";
 
-export default function Forumulario(){
-  super(props);
-  this.state = {
-    masculino: true,
-    idade: 
-  };
-
+export default function Forumulario() {
   return (
     <>
       <h1>Formulário</h1>
@@ -15,11 +9,11 @@ export default function Forumulario(){
           Sexo:
           <p>
             Masculino
-            <input type="radio" name="sexo" id="masculino" />
+            <input type="radio" name="masculino" id="sexo" />
           </p>
           <p>
             Feminino
-            <input type="radio" name="sexo" id="feminino" />
+            <input type="radio" name="feminino" id="sexo" />
           </p>
         </label>
         <label htmlFor="idade">
